@@ -1,0 +1,46 @@
+.card {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #DDDDDD;
+  user-select: none;
+  cursor: pointer;
+}
+
+.img img {
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.discount {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 4px 8px;
+  background-color: #339933;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.name {
+font-weight: 500;
+font-size: 20px;
+
+}
+
+.price {
+font-weight: 600;
+font-size: 40px;
+
+}
+
+.price_discount {
+font-weight: 500;
+font-size: 20px;
+text-decoration: line-through;
+color: #8B8B8B;
+margin-left: 20px;
+}

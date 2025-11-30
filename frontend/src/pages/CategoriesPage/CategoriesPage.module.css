@@ -1,0 +1,33 @@
+.categories {
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 340px);
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.categorieCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #282828;
+  cursor: pointer;
+  user-select: none;
+
+  .img {
+    width: 340px;
+    height: 480px;
+    border-radius: 12px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
