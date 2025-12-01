@@ -7,8 +7,8 @@ import ProductPage from './pages/ProductPage/ProductPage';
 import Categories from './pages/CategoriesPage/CategoriesPage';
 import CategoryToIdPage from './pages/CategoryPage/CategoryPage';
 import ProductsPage from './pages/ProductsPage/ProductsPage';
-import Basket from './pages/basket/BasketPage';
-import NotFound from './pages/error/ErrorC';
+import Basket from './pages/cart/CartPage';
+import NotFound from './pages/notFound/notFound';
 
 function App() {
   return (

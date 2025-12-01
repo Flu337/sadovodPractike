@@ -5,7 +5,7 @@ import {
   clearCart,
   updateQuantity,
 } from "../../store/cartSlice";
-import styles from "./basket.module.css";
+import styles from "./Cart.module.css";
 import BlockHeader from "../../components/BlockHeader/BlockHeader";
 
 const Basket = () => {
