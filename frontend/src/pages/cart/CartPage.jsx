@@ -132,7 +132,7 @@ const Basket = () => {
         <div className={styles.modalOverlay}>
           <div className={styles.modalContent}>
             <h2>Congratulations! </h2>
-            <p>
+            <p >
               Your order has been successfully placed on the website. <br />{" "}
               <br />
               A manager will contact you shortly to confirm your order.

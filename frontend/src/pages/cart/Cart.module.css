@@ -258,14 +258,18 @@
 }
 
 .modalContent {
-  background-color: #fff;
+  background-color: #339933;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   h2 {
+    color: white;
     margin-bottom: 10px;
+  }
+  p {
+    color: white;
   }
 
   button {
